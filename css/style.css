@@ -16,14 +16,36 @@ html {
  * Remove default margin.
  */
 
-body {
+ body {
   margin: 0;
+}
+
+/**Initial project changes, to be removed**/
+
+body {
   background-color: LightGray;
 }
 
 div { 
-  border: 1px solid Chocolate;
+  border: 1px solid blue;
 }
+
+/**Navigation Section**/
+
+.top-navigation {
+  background-color: #fff;
+}
+
+.top-navigation > .content {
+  width: 1070px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+
+
+
+
 
 /* HTML5 display definitions
    ========================================================================== */
