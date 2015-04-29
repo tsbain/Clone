@@ -1,5 +1,13 @@
 
-/**Initial project changes, to be removed**/
+/**Initial project changes, (bg color and div border to be removed**/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
   background-color: LightGray;
@@ -19,12 +27,39 @@ div {
   width: 1150px;
   height: 70px;
   margin: 0 auto;
+  padding: 0px 25px;  
 }
 
-.logo {
+.top-navigation .logo {
   width: 40px;
   height: 40px;
-  margin: 15px 0 25px;
+  margin-top: 15px;
+}
+
+.top-navigation .links {
+  float: right;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li {
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 25px;
+}
+
+.top-navigation .links .active {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+  color: #333;
+  cursor: pointer;
 }
 
 
